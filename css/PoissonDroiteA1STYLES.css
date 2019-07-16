@@ -1,0 +1,400 @@
+.fishphoto{ /*la jolie photo de notre beau poisson*/
+	width: 100px;
+	height: 100px;
+	margin-top: 0.5em;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	
+}
+
+.fishquiparle { /*dialogue de fish qui présente son monde*/
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	font-size: 1em;	
+	color: white;
+	position: absolute;
+	left: 145px;
+	top: 30px;
+	width: 525px;
+}
+
+.GrandRequinBlanc{
+	position: absolute;
+	right: 5px;
+	top: 30%;
+	width: 800px;
+	height: 300px;
+	transform: scaleX(-1)
+
+}
+
+
+.GrandRequinBlancquiparle{
+	position: absolute;
+	left: 30px;
+	bottom: 350px;
+	color: white;
+	background-color: blue;
+	font-family: Comic Sans MS;
+	width: 500px;
+}
+
+
+
+.Oceanacceuil{
+		position: absolute;
+	top: 0px;
+	right: 0px;
+	background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
+	color: white;
+	display: inline-block;
+list-style-type: none;
+text-decoration: none;
+}
+
+
+.lesfleches {
+    position:relative;
+    bottom: -500px;
+    height:100px;
+}
+.flechegauchealeatoire{
+    display:block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 3px;
+    bottom: 0%;    
+}
+.flechedroitealeatoire{
+    display:block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 3px;
+    bottom: 0%;
+}
+.flechedroitealeatoire img {
+    transform:rotate(180deg)
+}
+.lesfleches img {
+    width:100%
+}
+
+
+body{
+	background-image: url(https://images.unsplash.com/photo-1502726299822-6f583f972e02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);
+background-size: 100%;
+			background-repeat: no-repeat;
+}
+p{
+	font-family: Comic Sans MS;
+}
+
+/*MEDIA QUERIES!!!! */
+
+/*En dessous, on codera pour les écrans inférieurs à un pc (PARTIE BUG) */
+@media all and (max-width: 1300px) (orientation: landscape)
+{
+	.GrandRequinBlancquiparle{
+	position: absolute;
+	left: 5px;
+	bottom: 350px;
+	color: white;
+	background-color: blue;
+	font-family: Comic Sans MS;
+	width: 500px;
+
+
+}
+
+.GrandRequinBlanc{
+	position: absolute;
+	right: 5px;
+	top: 35.5%;
+	width: 800px;
+	height: 300px;
+	transform: scaleX(-1)
+
+}
+body{
+	background-image: url(https://images.unsplash.com/photo-1502726299822-6f583f972e02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);
+background-size: 1400px;
+			background-repeat: no-repeat;
+}
+
+}
+/*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
+@media all and (max-width: 979px) (orientation: landscape)
+{ 
+	.fishphoto{ /*la jolie photo de notre beau poisson*/
+	width: 50px;
+	height: 50px;
+	left: 0px;
+	margin-top: 0.5px;
+	  }
+
+	  .fishquiparle { /*dialogue de fish qui présente son monde*/
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	background-color: green;
+	font-size: 0.85em;	
+	color: white;
+	height: 200px;
+	left: 85px;
+}
+
+.GrandRequinBlanc{
+	position: absolute;
+	right: 5px;
+	top: 45%;
+	width: 500px;
+	height: 200px;
+	transform: scaleX(-1)
+
+}
+
+.GrandRequinBlancquiparle{
+	position: absolute;
+	left: 40px;
+	bottom: 300px;
+	color: white;
+	background-color: blue;
+	font-family: Comic Sans MS;
+	width: 300px;
+}
+
+p{
+	font-size: 0.85em;
+}
+body{
+	background-image: url(https://images.unsplash.com/photo-1502726299822-6f583f972e02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);
+background-size: 1400px;
+			background-repeat: no-repeat;
+}
+  }
+/*En dessous, on codera pour les écrans inférieurs à un pc (petite tablette) */
+@media all and (max-width: 767px) (orientation: landscape)
+{
+.fishphoto{ /*la jolie photo de notre beau poisson*/
+	width: 50px;
+	height: 50px;
+	left: 0px;
+	margin-top: 0.5px;
+	  }
+
+	  .fishquiparle { /*dialogue de fish qui présente son monde*/
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	background-color: red;
+	font-size: 0.75em;	
+	color: white;
+	height: 220px;
+	left: 10%;
+	width: 300px;
+}
+
+.GrandRequinBlanc{
+	position: absolute;
+	right: 2px;
+	top: 48%;
+	width: 300px;
+	height: 120px;
+	transform: scaleX(-1)
+
+}
+
+.GrandRequinBlancquiparle{
+	position: absolute;
+	left: 1px;
+	bottom: 340px;
+	color: white;
+	background-color: blue;
+	font-family: Comic Sans MS;
+	width: 200px;
+}
+p{
+	font-size: 0.7em;
+}
+
+  }
+
+  	/*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
+@media all and (max-width: 480px) (orientation: portrait)
+{
+	  .fishquiparle { /*dialogue de fish qui présente son monde*/
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	background-color: red;
+	font-size: 0.75em;	
+	color: white;
+	height: 220px;
+	left: 10%;
+	width: 250px;
+	top: 8%;
+}
+.GrandRequinBlanc{
+	position: absolute;
+	right: 5px;
+	top: 40%;
+	width: 300px;
+	height: 120px;
+	transform: scaleX(-1)
+
+}
+
+	.GrandRequinBlancquiparle{
+	position: absolute;
+	left: 1px;
+	bottom: 400px;
+	color: white;
+	background-color: blue;
+	font-family: Comic Sans MS;
+	width: 200px;    }
+.lesfleches {
+    position:relative;
+    bottom: -420px;
+    height:100px;
+}
+.flechegauchealeatoire{
+    display:block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 3px;
+    bottom: 0%;    
+}
+.flechedroitealeatoire{
+    display:block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 3px;
+    bottom: 0%;
+}
+.flechedroitealeatoire img {
+    transform:rotate(180deg)
+}
+.lesfleches img {
+    width:100%
+}
+
+
+	
+}
+ 	/*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
+@media all and (max-width: 410px) (orientation: portrait)
+{
+	  .fishquiparle { /*dialogue de fish qui présente son monde*/
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	background-color: red;
+	font-size: 0.75em;	
+	color: white;
+	height: 220px;
+	left: 10%;
+	width: 250px;
+	top: 8%;
+}
+
+.GrandRequinBlanc{
+	position: absolute;
+	right: 2px;
+	top: 48%;
+	width: 300px;
+	height: 120px;
+	transform: scaleX(-1)
+
+}
+	.GrandRequinBlancquiparle{
+	position: absolute;
+	left: 1px;
+	bottom: 350px;
+	color: white;
+	background-color: blue;
+	font-family: Comic Sans MS;
+	width: 200px;    }
+.lesfleches {
+    position:relative;
+    bottom: -420px;
+    height:100px;
+}
+.flechegauchealeatoire{
+    display:block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 3px;
+    bottom: 0%;    
+}
+.flechedroitealeatoire{
+    display:block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 3px;
+    bottom: 0%;
+}
+.flechedroitealeatoire img {
+    transform:rotate(180deg)
+}
+.lesfleches img {
+    width:100%
+}
+
+}
+
+  	/*En dessous, on codera pour les écrans inférieurs à un pc (mini téléphone) */
+@media all and (max-width: 320px) (orientation: portrait)
+{
+	  .fishquiparle { /*dialogue de fish qui présente son monde*/
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	background-color: red;
+	font-size: 0.75em;	
+	color: white;
+	height: 220px;
+	left: 10%;
+	width: 250px;
+	top: 8%;
+}
+	.GrandRequinBlancquiparle{
+	position: absolute;
+	left: 1px;
+	bottom: 300px;
+	color: white;
+	background-color: blue;
+	font-family: Comic Sans MS;
+	width: 200px;    }
+.lesfleches {
+    position:relative;
+    bottom: -420px;
+    height:100px;
+}
+.flechegauchealeatoire{
+    display:block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 3px;
+    bottom: 0%;    
+}
+.flechedroitealeatoire{
+    display:block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 3px;
+    bottom: 0%;
+}
+.flechedroitealeatoire img {
+    transform:rotate(180deg)
+}
+.lesfleches img {
+    width:100%
+}
+
+
+	
+}
