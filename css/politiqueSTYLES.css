@@ -31,7 +31,7 @@ text-decoration: none;
 
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (PARTIE QUI BUG !!!!!!) */
-@media all and (max-width: 1300px) (orientation: landscape)
+@media all and (max-width: 1300px) and (orientation: landscape)
 {
 	
 div{
@@ -40,18 +40,28 @@ div{
 	flex-wrap: wrap;
 		margin-top: 0%;
 		margin-left: 0%;
-	width: 700px;
+	width: 750px;
 	height: 1200px;
 	color: white;
 	background-color: yellow;
 	font-family: Comic Sans MS;
 	font-size: 0.8em;
 	  }
-
+ .index{
+		position: absolute;
+	top: 0px;
+	right: 0px;
+	background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
+	color: white;
+	display: inline-block;
+list-style-type: none;
+text-decoration: none;
+}
+}
 
 }
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
-@media all and (max-width: 979px) (orientation: landscape)
+@media all and (max-width: 979px) and (orientation: landscape)
 {
 	div{
 	display: flex;
@@ -59,17 +69,27 @@ div{
 	flex-wrap: wrap;
 		margin-top: 0%;
 		margin-left: 0%;
-	width: 700px;
+	width: 600px;
 	height: 1200px;
 	color: white;
 	background-color: green;
 	font-family: Comic Sans MS;
-	font-size: 0.8em;
+	font-size: 0.85em;
 	  }
-
+	  
+  .index{
+		position: absolute;
+	top: 0px;
+	right: 0px;
+	background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
+	color: white;
+	display: inline-block;
+list-style-type: none;
+text-decoration: none;
+}
 }
 /*En dessous, on codera pour les écrans inférieurs à un pc (petite tablette) */
-@media all and (max-width: 767px) (orientation: landscape)
+@media all and (max-width: 767px) and (orientation: landscape)
 {
 	div{
 	display: flex;
@@ -78,16 +98,16 @@ div{
 		margin-top: 0%;
 		margin-left: 0%;
 	width: 400px;
-	height: 900px;
+	height: 1200px;
 	color: white;
 	background-color: red;
 	font-family: Comic Sans MS;
-	font-size: 0.6em;
+	font-size: 0.75em;
 	  }
 }
 
 	/*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
-@media all and (max-width: 480px) (orientation: portrait)
+@media all and (max-width: 480px) and (orientation: portrait)
 {
 	div{
 	display: flex;
@@ -96,11 +116,11 @@ div{
 		margin-top: 0%;
 		margin-left: 0%;
 	width: 200px;
-	height: 1300px;
+	height: 1500px;
 	color: white;
 	background-color: orange;
 	font-family: Comic Sans MS;
-	font-size: 0.6em;
+	font-size: 0.7em;
 	  }
 }
 

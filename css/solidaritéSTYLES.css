@@ -28,7 +28,7 @@ text-decoration: none;
 
 /*MEDIA QUERIES*/
 /*En dessous, on codera pour les écrans inférieurs à un pc (PARTIE QUI BUG !!!!!!) */
-@media all and (max-width: 1300px) (orientation: landscape)
+@media all and (max-width: 1300px) and (orientation: landscape)
 {
 	
 p{
@@ -39,19 +39,20 @@ p{
 
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
-@media all and (max-width: 979px) (orientation: landscape)
+@media all and (max-width: 979px) and  (orientation: landscape)
 {
 	h1{
 	font-size: 0.9em;
 }
 	p{
 	font-size: 0.85em;
+	
 	  }
 
 	  }
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (petite tablette) */
-@media all and (max-width: 767px) (orientation: landscape)
+@media all and (max-width: 767px) and (orientation: landscape)
 {
 	h1{
 	font-size: 0.8em;
@@ -62,13 +63,13 @@ p{
   }
 
 	/*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
-@media all and (max-width: 480px) (orientation: portrait)
+@media all and (max-width: 480px) and (orientation: portrait)
 {
 	h1{
-	font-size: 0.7em;
+	font-size: 0.75em;
 }
 	p{
-	font-size: 0.65em;
+	font-size: 0.7em;
 	
 	  }
 	  }

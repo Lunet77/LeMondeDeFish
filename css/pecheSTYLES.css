@@ -143,7 +143,7 @@ p{
 /*MEDIA QUERIES!!!! */
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (PARTIE QUI BUG !!!!!!) */
-@media all and (max-width: 1024px) (orientation: landscape)
+@media all and (max-width: 1024px) and (orientation: landscape)
 {
 	.bateau{
 	width: 450px;
@@ -257,7 +257,7 @@ body{
 
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
-@media all and (max-width: 979px) (orientation: landscape)
+@media all and (max-width: 979px) and (orientation: landscape)
 {
 
 	.fishphoto{ /*la jolie photo de notre beau poisson*/
@@ -400,8 +400,10 @@ z-index: 9999999;
 flex-wrap: nowrap;
 }
 
+  }
+
 /*En dessous, on codera pour les écrans inférieurs à un pc (petite tablette) */
-@media all and (max-width: 767px) (orientation: landscape)
+@media all and (max-width: 767px) and (orientation: landscape)
 {
 	.fishphoto{ /*la jolie photo de notre beau poisson*/
 	width: 50px;
@@ -547,7 +549,7 @@ z-index: 999999999;
 
 
 	/*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
-@media all and (max-width: 480px) (orientation: portrait)
+@media all and (max-width: 480px) and (orientation: portrait)
 {
 	.fishphoto{ /*la jolie photo de notre beau poisson*/
 	width: 50px;
@@ -576,7 +578,7 @@ z-index: 999999999;
 	body{
 	background-image: url("../img/PECHEtel.jpg");
 	background-repeat: no-repeat;
-	background-size: 420px;
+	background-size: 300px;
 
 
 }
@@ -694,12 +696,26 @@ text-decoration: none;
 flex-wrap: nowrap;
 z-index: 99999;
 }
-}
+
 }
 
-@media all and (max-width: 320px) (orientation: portrait)
+@media all and (max-width: 320px) and (orientation: portrait)
 {
 	body{
-		background-color: green;
+	background-image: url("../img/PECHEtel.jpg");
+	background-repeat: no-repeat;
+	background-size: 1420px;
+
+}
+ .fishquiparle{
+	font-family: Comic Sans MS;
+    color: #B40404;
+	font-weight: bold;
+	font-size: 0.7em;
+	background-color: green;
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	width: 120px;
 	}
 }
