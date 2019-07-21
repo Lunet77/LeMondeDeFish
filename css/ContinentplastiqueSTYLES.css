@@ -46,7 +46,8 @@ text-decoration: none;
 
 /*MEDIA QUERIES*/
 /*En dessous, on codera pour les écrans inférieurs à un pc (PARTIE QUI BUG !!!!!!) */
-@media all and (max-width: 1300px)
+@media all and (max-width: 1370px) and (orientation: landscape)
+
 {
 	.fishphoto{ /*la jolie photo de notre beau poisson*/
 	width: 50px;
@@ -57,6 +58,13 @@ text-decoration: none;
 p{
 	font-size: 0.95em;
 }
+
+body{
+	background-image: url("../img/Continentplastique.JPG");
+	background-size: 2050px;
+			background-repeat: no-repeat; 
+	  }
+
 
 }
 
@@ -105,11 +113,18 @@ p{
 	
 }
 	p,.fishquiparle{
-	font-size: 0.65em;
+	font-size: 0.7em;
 	color: orange;
 	width: 150px;
 	  }
 	  
+
+	  body{
+	background-image: url("../img/Continentplastique.JPG");
+	background-size: 1600px;
+			background-repeat: no-repeat; 
+	  }
+
 	  }
 
 

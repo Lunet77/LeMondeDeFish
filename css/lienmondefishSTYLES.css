@@ -441,8 +441,8 @@ display: flex;
 		margin-left: 0%;
 	width: 200px;
 	height: 146px;
-	color: orange;
 	font-size: 0.4em;
+	color: white;
 font-family: Comic Sans MS;
 	
 }
@@ -474,7 +474,7 @@ body { /*caractéristiques de  la page du lien qui emmène vers le monde de fish
 
 	  nav{ /*TAILLE DU MENU AVEC SA BORDURE*/
 	background-image: url(https://cdn.pixabay.com/photo/2018/01/16/10/29/waters-3085701__340.jpg);
-width:  250px;
+width:  263px;
 height: 30px;
 border: 3px blue dashed;
 position: absolute;
