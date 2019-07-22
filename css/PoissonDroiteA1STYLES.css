@@ -89,10 +89,12 @@ body{
 background-size: 100%;
 			background-repeat: no-repeat;
 }
+
 p{
 	font-family: Comic Sans MS;
 }
 
+  }
 /*MEDIA QUERIES!!!! */
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (PARTIE BUG) */
@@ -296,7 +298,7 @@ p{
 
 body{
 	background-image: url(https://images.unsplash.com/photo-1502726299822-6f583f972e02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);
-background-size: 300%;
+background-size: 1400px;
 			background-repeat: no-repeat;
 }
 
@@ -372,7 +374,7 @@ background-size: 300%;
 }
 body{
 	background-image: url(https://images.unsplash.com/photo-1502726299822-6f583f972e02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);
-background-size: 300%;
+background-size: 1400px;
 			background-repeat: no-repeat;
 }
 
@@ -503,7 +505,7 @@ background-size: 300%;
 }
 body{
 	background-image: url(https://images.unsplash.com/photo-1502726299822-6f583f972e02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);
-background-size: 300%;
+background-size: 1400px;
 			background-repeat: no-repeat;
 }
 
