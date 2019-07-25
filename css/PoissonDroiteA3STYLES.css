@@ -93,7 +93,7 @@ p{
 
 /*MEDIA QUERIES!!!! */
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
-@media all and (max-width: 979px) and (orientation: landscape)
+@media all and (max-width: 1024px) and (orientation: landscape)
 {
 	.fishphoto{ /*la jolie photo de notre beau poisson*/
 	width: 50px;

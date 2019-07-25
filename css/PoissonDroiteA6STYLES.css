@@ -95,8 +95,35 @@ p{
   }
 
 /*MEDIA QUERIES!!!! */
+
+
+/*En dessous, on codera pour les écrans inférieurs à un pc (Ipad pro) */
+@media all and (max-width: 1366px) and (min-width: 1365px) and (max-height:  1025px) and (min-height: 1024px) and (orientation: landscape)
+{
+	.GrandRequinBlanc{
+	position: absolute;
+	right: 5px;
+	top: 45%;
+	width: 200px;
+	height: 120px;
+	transform: scaleX(-1)
+
+}
+
+.GrandRequinBlancquiparle{
+	position: absolute;
+	left: 40%;
+	bottom: 350px;
+	font-size: 0.85em;
+	color: white;
+	background-color: yellow;
+	font-family: Comic Sans MS;
+}
+}
+
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
-@media all and (max-width: 979px) and (orientation: landscape)
+
+@media all and (max-width: 1024px) and (orientation: landscape)
 {
 	.fishphoto{ /*la jolie photo de notre beau poisson*/
 	width: 50px;
@@ -119,8 +146,8 @@ p{
 	position: absolute;
 	right: 5px;
 	top: 45%;
-	width: 200px;
-	height: 120px;
+	width: 220px;
+	height: 160px;
 	
 
 }
@@ -224,7 +251,7 @@ background-size: 1400px;
 	.Orquequiparle{
 	position: absolute;
 	left: 1px;
-	bottom: 250px;
+	bottom: 315px;
 	color: white;
 		font-size: 0.75em;	
 	background-color: blue;
@@ -281,7 +308,7 @@ background-size: 1400px;
 	.Orquequiparle{
 	position: absolute;
 	left: 1px;
-	bottom: 350px;
+	bottom: 390px;
 		font-size: 0.75em;	
 	color: white;
 	background-color: blue;
@@ -305,7 +332,7 @@ background-size: 1400px;
 	.Orquequiparle{
 	position: absolute;
 	left: 1px;
-	bottom: 350px;
+	bottom: 390px;
 	color: white;
 		font-size: 0.75em;	
 	background-color: blue;
@@ -328,7 +355,7 @@ background-size: 1400px;
 		.Orquequiparle{
 	position: absolute;
 	left: 1px;
-	bottom: 180px;
+	bottom: 275px;
 		font-size: 0.75em;	
 	color: white;
 	background-color: blue;
@@ -362,7 +389,7 @@ background-size: 1400px;
 	.Orquequiparle{
 	position: absolute;
 	left: 1px;
-	bottom: 120px;
+	bottom: 126px;
 		font-size: 0.75em;	
 	color: white;
 	background-color: blue;

@@ -155,7 +155,7 @@ footer{
  /*MEDIA QUERIES*/
 
 /*En dessous, on codera pour les écrans inférieurs à un pc , ici: Ipad normal paysage; (PARTIE QUI BUG !!!!!!) */
-@media all and (max-width: 1367px) 
+@media all and (max-width: 1024px) 
 {
 	p{
 		font-size: 1.9em; /* Taille spécial pour cette partie !!*/

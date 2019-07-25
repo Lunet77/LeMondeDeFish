@@ -96,7 +96,7 @@ p{
 
 /*MEDIA QUERIES!!!! */
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
-@media all and (max-width: 979px) and (orientation: landscape)
+@media all and (max-width: 1024px) and (orientation: landscape)
 {
 	.fishphoto{ /*la jolie photo de notre beau poisson*/
 	width: 50px;
@@ -126,7 +126,7 @@ p{
 
 .Raiequiparle{
 	position: absolute;
-	left: 40%;
+	left: 5%;
 	bottom: 350px;
 	font-size: 0.85em;
 	color: white;
@@ -222,7 +222,7 @@ background-size: 1400px;
 	.Raiequiparle{
 	position: absolute;
 	left: 1px;
-	bottom: 250px;
+	bottom: 290px;
 	color: white;
 		font-size: 0.75em;	
 	background-color: blue;
@@ -279,7 +279,7 @@ background-size: 1400px;
 	.Raiequiparle{
 	position: absolute;
 	left: 1px;
-	bottom: 350px;
+	bottom: 380px;
 		font-size: 0.75em;	
 	color: white;
 	background-color: blue;
@@ -302,7 +302,7 @@ background-size: 1400px;
 	.Raiequiparle{
 	position: absolute;
 	left: 1px;
-	bottom: 350px;
+	bottom: 380px;
 	color: white;
 		font-size: 0.75em;	
 	background-color: blue;
@@ -325,7 +325,7 @@ background-size: 1400px;
 		.Raiequiparle{
 	position: absolute;
 	left: 1px;
-	bottom: 180px;
+	bottom: 210px;
 		font-size: 0.75em;	
 	color: white;
 	background-color: blue;
@@ -359,7 +359,7 @@ background-size: 1400px;
 	.Raiequiparle{
 	position: absolute;
 	left: 1px;
-	bottom: 120px;
+	bottom: 126px;
 		font-size: 0.75em;	
 	color: white;
 	background-color: blue;

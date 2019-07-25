@@ -161,69 +161,9 @@ body{ /*caractéristiques de  la page du lien qui emmène vers le monde de fish*
 
 /*MEDIA QUERIES!!!! */
 
-/*En dessous, on codera pour les écrans inférieurs à un pc (PARTIE QUI BUG !!!!!!) */
-@media all and (max-width: 1370px) and (orientation: landscape)
-{
-	.fishphoto{ /*la jolie photo de notre beau poisson*/
-	width: 50px;
-	height: 50px;
-	left: 0px;
-	margin-top: 0.5px;
-	  }
-
-	  .fishquiparle { /*dialogue de fish qui présente son monde*/
-	font-weight: bold;
-	font-family: Comic Sans MS;
-	background-color: green;
-	font-size: 0.85em;	
-	color: white;
-	height: 200px;
-	left: 105px;
-}
-
-.Boutonpoisson {
-		background-image: url(https://cdn.pixabay.com/photo/2014/03/10/16/03/aquarium-284551__340.jpg);
-display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-		margin-top: 10%;
-		margin-left: 0%;
-	width: 500px;
-	height: 300px;
-	color: white;
-	font-size: 0.4em;
-font-family: Comic Sans MS;
-	
-}
-.Plage:active{
-	background-image: url(https://media3.giphy.com/media/1k58QSbO73l7y/giphy.gif?cid=790b76115d02440670386e703632075c&rid=giphy.gif);
-	color: #F6DC12;
-	
-}
-.Peche:active{
-	background-image: url(https://media.giphy.com/media/uP0OdI4NOUGWc/giphy.gif);
-	color: blue;
-	   }
-
-.Epave:active{
-	background-image: url(https://cdn.pixabay.com/photo/2016/11/29/01/52/wood-1866659__340.jpg);
-	color: white;
-	   }
-
-.Continentplastique:active{
-	background-image: url(https://media.giphy.com/media/3oEhmCVfXL9o75NcPe/giphy.gif);
-	color: black;
-	   }
-
-	body { /*caractéristiques de  la page du lien qui emmène vers le monde de fish*/
-		background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
-			background-repeat: no-repeat;
-			background-size: 2000px;
-			 }
-}
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
-@media all and (max-width: 979px) and (orientation: landscape)
+@media all and (max-width: 1024px) and (orientation: landscape)
 {
 	.fishphoto{ /*la jolie photo de notre beau poisson*/
 	width: 50px;
