@@ -92,6 +92,37 @@ p{
 
 
 /*MEDIA QUERIES!!!! */
+
+
+/*En dessous, on codera pour les écrans inférieurs à un pc ( faire fonctionner Ipad pro) */
+@media all and (max-width: 1400px) and (orientation: landscape)
+{
+	
+}
+
+/*En dessous, on codera pour les écrans inférieurs à un pc (Ipad pro) */
+@media all and (max-width: 1366px) and (min-width: 1365px) and (max-height: 1024px) and (min-height: 1023px) and (orientation: landscape)
+{
+	.AnguilleEurope{
+	position: absolute;
+	right: 5px;
+	top: 30%;
+	width: 300px;
+	height: 150px;
+
+}
+
+
+.AnguilleEuropequiparle{
+	position: absolute;
+	left: 600px;
+	bottom: 500px;
+	color: white;
+	background-color: yellow;
+	font-family: Comic Sans MS;
+}
+
+}
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
 @media all and (max-width: 1024px) and (orientation: landscape)
 {

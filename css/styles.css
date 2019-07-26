@@ -154,14 +154,15 @@ footer{
 
  /*MEDIA QUERIES*/
 
+/*PARTIE PAYSAGE !!!!!!!/*
 /*En dessous, on codera pour les écrans inférieurs à un pc , ici: Ipad normal paysage; (PARTIE QUI BUG !!!!!!) */
-@media all and (max-width: 1024px) 
+@media all and (max-width: 1024px)  and (orientation: landscape)
 {
 	p{
 		font-size: 1.9em; /* Taille spécial pour cette partie !!*/
 		display: flex;
 		flex-wrap: wrap;
-		background-color: yellow;
+	
 }
 
 }
@@ -172,13 +173,13 @@ footer{
 
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
-@media all and (max-width: 979px) 
+@media all and (max-width: 979px) and (orientation: landscape)
 {
 	p{
 		font-size: 1.5em; /* Taille paragraphe pour inf à 979px*/
 		display: flex;
 		flex-wrap: wrap;
-		background-color: green;
+		
 }
 
 h1 {
@@ -237,6 +238,13 @@ h1 {
 
 }
 
+.droits{
+	font-size: 0.8em;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+}
 footer{
 	font-size: 0.8em;
 	color: blue;
@@ -249,14 +257,26 @@ footer{
 
 	  }
 
+
+/*En dessous, on codera pour les écrans inférieurs à un pc (pour l'Iphone X) */
+@media all and (max-width: 812px)  and (orientation: landscape){
+
+	p{
+		font-size: 1em; 
+		display: flex;
+		flex-wrap: wrap;
+	
+}
+
+}
 /*En dessous, on codera pour les écrans inférieurs à un pc (petite tablette) */
-@media all and (max-width: 767px) 
+@media all and (max-width: 767px)  and (orientation: landscape)
 {
 	p{
 		font-size: 1.2em; /* Taille paragraphe pour inf à 767px*/
 		display: flex;
 		flex-wrap: wrap;
-		background-color: red;
+	
 }
 
 
@@ -364,8 +384,16 @@ a{
 
 }
 
+
+.droits{
+	font-size: 0.76em;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+}
 footer{
-	font-size: 0.6em;
+	font-size: 0.76em;
 	color: blue;
 	background-color: black;
 	width: 230px;
@@ -375,14 +403,20 @@ footer{
 	left: 0px;   }
   }
 
+
+
+
+
+/*PARTIE PORTRAIT !!!!!!!*/
+
 	/*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
-@media all and (max-width: 480px) 
+@media all and (max-width: 480px)  and (orientation: portrait)
 {
 	p{
 		font-size: 1em; /* Taille paragraphe pour inf à 480px*/
 		display: flex;
 		flex-wrap: wrap;
-		background-color: orange;
+		
 
 }
 
@@ -416,8 +450,41 @@ footer{
 	width: 380px;
 	height: 50px;
 	position: absolute;
-	bottom: 0px;
-	left: 0px;
+	bottom: 0px; 
+	  }
+p{
+		font-size: 1em; /* Taille paragraphe pour inf à 480px*/
+		display: flex;
+		flex-wrap: wrap;
+		
+
+}
+
+.fishphoto{ /*la jolie photo de notre beau poisson*/
+	width: 50px;
+	height: 50px;
+	margin-top: 8%;	
+}
+.presentationfishquiparle /*dialogue de fish*/
+{
+	font-weight: bold;
+	width: 300px;
+margin-top: 8%;	
+}
+
+.presentation{
+margin-top: 6%;
+width: 300px;
+}
+
+ nav{ /*TAILLE DU MENU AVEC SA BORDURE*/
+	background-image: url(https://cdn.pixabay.com/photo/2018/01/16/10/29/waters-3085701__340.jpg);
+width:  250px;
+height: 30px;
+border: 3px blue dashed;
+margin-top: 50px;
+}
+	
 }
 
 .droits{
@@ -532,3 +599,26 @@ footer{
 	bottom: 0px;
 	left: 0px;   }
 	  }
+
+	  /*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
+@media all and (max-width: 320px)  and (orientation: portrait)
+{
+	.droits{
+	font-size: 0.6em;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+}
+footer{
+	font-size: 0.6em;
+	color: blue;
+	background-color: black;
+	width: 250px;
+	height: 30px;
+	position: absolute; 
+	bottom: 0px;
+	left: 0px;   }
+
+	  }
+}

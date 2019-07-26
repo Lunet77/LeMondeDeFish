@@ -93,6 +93,39 @@ p{
 }
 
 /*MEDIA QUERIES!!!! */
+
+/*En dessous, on codera pour les écrans inférieurs à un pc ( faire fonctionner Ipad pro) */
+@media all and (max-width: 1400px) and (orientation: landscape)
+{
+	
+}
+
+/*En dessous, on codera pour les écrans inférieurs à un pc (Ipad pro) */
+@media all and (max-width: 1366px) and (min-width: 1365px) and (max-height: 1024px) and (min-height: 1023px) and (orientation: landscape)
+{
+	.ThonRouge{
+	position: absolute;
+	right: 1px;
+	top: 30%;
+	width: 500px;
+	height: 260px;
+
+}
+
+
+.ThonRougequiparle{
+	position: absolute;
+	left: 14%;
+	bottom: 400px;
+	width: 400px;
+	color: white;
+	background-color: yellow;
+	font-family: Comic Sans MS;
+}
+
+
+
+	
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
 @media all and (max-width: 1024px) and (orientation: landscape)
 {

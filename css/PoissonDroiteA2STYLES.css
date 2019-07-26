@@ -94,25 +94,30 @@ p{
   }
 /*MEDIA QUERIES!!!! */
 
+/*En dessous, on codera pour les écrans inférieurs à un pc ( faire fonctionner Ipad pro) */
+@media all and (max-width: 1400px) and (orientation: landscape)
+{
+	
+}
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (Ipad pro) */
-@media all and (max-width: 1366px) and (min-width: 1365px) and (max-height:  1025px) and (min-height: 1024px) and (orientation: landscape)
+@media all and (max-width: 1366px) and (min-width: 1365px) and (max-height: 1024px) and (min-height: 1023px) and (orientation: landscape)
 {
-	.GrandRequinBlanc{
+	.Dauphin{
 	position: absolute;
-	right: 5px;
-	top: 45%;
-	width: 200px;
-	height: 120px;
+	right: 150px;
+	top: 25%;
+	width: 300px;
+	height: 400px;
 	transform: scaleX(-1)
 
 }
 
-.GrandRequinBlancquiparle{
+
+.Dauphinquiparle{
 	position: absolute;
 	left: 40%;
-	bottom: 350px;
-	font-size: 0.85em;
+	bottom: 400px;
 	color: white;
 	background-color: yellow;
 	font-family: Comic Sans MS;
