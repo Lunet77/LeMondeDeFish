@@ -148,7 +148,7 @@ color: #ADD8E6;
 	.Oceanacceuil{
 		position: absolute;
 	top: 0px;
-	right: 0px;
+	right: -647px;
 	background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
 	color: white;
 	display: inline-block;
@@ -281,8 +281,9 @@ width: auto;
 	color: #0A122A;
 	font-weight: bold;
 	background-color: white;
-	width: auto;
+	width: 400px;
 	margin-right: 390px;
+
 
 
 }
