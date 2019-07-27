@@ -209,12 +209,12 @@ h2 {
 	height: 75px;
 	position: absolute;
 	top: 2%;
-	right: 33%;
+	right: 3%;
 }  
 .BonjourS{ /*"Salutation visiteur!"*/
 	position: absolute;
 	top: 4%;
-	right: 20%;
+	right: -10%;
 	color: green;
 	background-color: white;
 	width: auto;
@@ -225,7 +225,7 @@ h2 {
 width: 200px;
 position: absolute;
 top: 5%;
-left: 42%;
+left: 70%;
 font-family: Comic Sans MS;
 width: auto;
    }
