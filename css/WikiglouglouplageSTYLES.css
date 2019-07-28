@@ -190,17 +190,17 @@ text-decoration: none;
 	   }
 
 p{
-	font-size: 0.85em;
+	font-size: 1em;
 	width: 695px;
 }	   
 
 h1 {
-	font-size: 1.4em;
+	font-size: 1.6em;
 	width: 695px;
 }
 
 h2 {
-	font-size: 1.2em;
+	font-size: 1.4em;
 	width: 695px;
 }
 
@@ -236,14 +236,14 @@ width: auto;
    .déchetplagewiki{
 	width: 260px;
 	height: 130px;
-	margin-top: 110px;
+	margin-top: 125px;
 	margin-right: 250px;
 	
 }
 .nettoyeur{
 	width: 260px;
 	height: 130px;
-	margin-top: 115px;
+	margin-top: 165px;
 	margin-right: 250px;
 
 	
@@ -252,13 +252,13 @@ width: auto;
 .cotons{
 	width: 260px;
 	height: 130px;
-	margin-top: 85px;
+	margin-top: 145px;
 	margin-right: 250px;
 }
 .pile{
 	width: 260px;
 	height: 160px;
-	margin-top: 10px;
+	margin-top: 110px;
 	margin-right: 250px;
 	
 }
@@ -266,7 +266,7 @@ width: auto;
 .chiendechet{
 	width: 260px;
 	height: 130px;
-	margin-top: 30px;
+	margin-top: 130px;
 	margin-right: 250px;
 	
 	
@@ -274,7 +274,7 @@ width: auto;
 .terreeau{
 	width: 260px;
 	height: 130px;
-	margin-top: 140px;
+	margin-top: 240px;
 	margin-right: 250px;
 
 	  }

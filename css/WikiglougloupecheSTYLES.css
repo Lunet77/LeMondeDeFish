@@ -1,3 +1,4 @@
+
 body{    /*Caractéristiques principales de Wikiglouglou*/
 	background-image: url(https://cdn.pixabay.com/photo/2016/11/21/12/36/ocean-1845110_960_720.jpg);
 background-size: 3000px;
@@ -173,17 +174,17 @@ text-decoration: none;
 	   }
 
 p{
-	font-size: 0.85em;
+	font-size: 1em;
 	width: 695px;
 }	   
 
 h1 {
-	font-size: 1.4em;
+	font-size: 1.6em;
 	width: 695px;
 }
 
 h2 {
-	font-size: 1.2em;
+	font-size: 1.4em;
 	width: 695px;
 }
 
