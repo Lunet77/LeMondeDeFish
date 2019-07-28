@@ -289,3 +289,158 @@ margin-top: 68px;
 
 }
 }
+
+/*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
+@media all and (max-width: 480px)  and (orientation: portrait)
+{
+	.Oceanacceuil{
+		position: absolute;
+	top: 0px;
+	right: -647px;
+font-size: 1.6em;
+	background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
+	color: white;
+	display: inline-block;
+list-style-type: none;
+text-decoration: none;
+}
+	div{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+		margin-top: 10%;
+		margin-left: 0%;
+	width: 600px;
+	flex-wrap: wrap;
+	height: 2700px;
+	color: white;
+	background-color: red;
+	font-family: Comic Sans MS;
+	
+
+	
+	   }
+
+	   .imageWiki{
+	   	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+		margin-top: 10%;
+		margin-left: 10%;
+	position: absolute; 
+	right: -310px;
+	top: 0px;
+	width: 450px;
+	height: 2700px;
+	color: blue;
+	background-image: url(https://cdn.pixabay.com/photo/2014/05/26/14/45/rain-354617__340.jpg);
+		border: 3px blue dashed;
+	   }
+
+p{
+	font-size: 1em;
+	width: 695px;
+}	   
+
+h1 {
+	font-size: 1.6em;
+	width: 695px;
+}
+
+h2 {
+	font-size: 1.4em;
+	width: 695px;
+}
+
+
+.poissonS{ /*Image du poisson fou!*/
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	top: 2%;
+	right: 3%;
+}  
+.BonjourS{ /*"Salutation visiteur!"*/
+	position: absolute;
+	top: 4%;
+	right: -10%;
+	color: green;
+	background-color: white;
+	width: auto;
+} 
+
+.titrewikiglouglouplage { /*Titre "Wikiglouglou"*/
+	background-image: url(https://cdn.pixabay.com/photo/2016/02/14/09/45/frozen-1199182_960_720.jpg);
+width: 200px;
+position: absolute;
+top: 5%;
+left: 70%;
+font-family: Comic Sans MS;
+width: auto;
+   }
+
+
+
+   .déchetplagewiki{
+	width: 260px;
+	height: 130px;
+		margin-top: 110px;
+	margin-right: 250px;
+	
+}
+.nettoyeur{
+	width: 260px;
+	height: 130px;
+margin-top: 165px;
+	margin-right: 250px;
+
+	
+}
+
+.cotons{
+	width: 260px;
+	height: 130px;
+	margin-top: 85px;
+	margin-right: 250px;
+}
+.pile{
+	width: 260px;
+	height: 160px;
+		margin-top: 60px;
+	margin-right: 250px;
+	
+}
+
+.chiendechet{
+	width: 260px;
+	height: 130px;
+margin-top: 68px;
+	margin-right: 250px;
+	
+	
+}
+.terreeau{
+	width: 260px;
+	height: 130px;
+	margin-top: 190px;
+	margin-right: 250px;
+
+	  }
+.textimage{
+	color: #0A122A;
+	font-weight: bold;
+	background-color: white;
+	width: 450px;
+	margin-right: 250px;
+
+
+
+}
+}
+
+
+
+
+
+	
+
