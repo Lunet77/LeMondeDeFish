@@ -142,7 +142,7 @@ color: #ADD8E6;
 
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
-@media all and (max-width: 1024px) and (orientation: landscape)
+@media all and (max-width: 1024px) and (min-width: 481px) and (orientation: landscape)
 {
 
 	.Oceanacceuil{
@@ -290,13 +290,15 @@ margin-top: 68px;
 }
 }
 
+
+
 /*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
-@media all and (max-width: 480px)  and (orientation: portrait)
+@media all and (max-device-width : 480px)  and (orientation: portrait)
 {
 	.Oceanacceuil{
 		position: absolute;
 	top: 0px;
-	right: -647px;
+	right: -550px;
 font-size: 1.6em;
 	background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
 	color: white;
@@ -328,7 +330,7 @@ text-decoration: none;
 		margin-top: 10%;
 		margin-left: 10%;
 	position: absolute; 
-	right: -310px;
+	right: -80px;
 	top: 0px;
 	width: 450px;
 	height: 2700px;
@@ -339,17 +341,17 @@ text-decoration: none;
 
 p{
 	font-size: 1em;
-	width: 695px;
+	width: 595px;
 }	   
 
 h1 {
 	font-size: 1.6em;
-	width: 695px;
+	width: 595px;
 }
 
 h2 {
 	font-size: 1.4em;
-	width: 695px;
+	width: 595px;
 }
 
 
@@ -357,13 +359,13 @@ h2 {
 	width: 75px;
 	height: 75px;
 	position: absolute;
-	top: 2%;
-	right: 3%;
+	top: 0%;
+	right: 12%;
 }  
 .BonjourS{ /*"Salutation visiteur!"*/
 	position: absolute;
-	top: 4%;
-	right: -10%;
+	top: 0.5%;
+	right: -3%;
 	color: green;
 	background-color: white;
 	width: auto;
@@ -373,8 +375,8 @@ h2 {
 	background-image: url(https://cdn.pixabay.com/photo/2016/02/14/09/45/frozen-1199182_960_720.jpg);
 width: 200px;
 position: absolute;
-top: 5%;
-left: 70%;
+top: 1%;
+left: 60%;
 font-family: Comic Sans MS;
 width: auto;
    }
@@ -443,4 +445,3 @@ margin-top: 68px;
 
 
 	
-
