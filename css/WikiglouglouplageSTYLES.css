@@ -295,6 +295,14 @@ margin-top: 68px;
 /*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
 @media all and (max-device-width : 480px)  and (orientation: portrait)
 {
+
+	body{    /*Caractéristiques principales de Wikiglouglou*/
+	background-image: url(https://cdn.pixabay.com/photo/2016/11/21/12/36/ocean-1845110_960_720.jpg);
+background-size: 7000px;
+
+	background-repeat: no-repeat; 
+}
+
 	.Oceanacceuil{
 		position: absolute;
 	top: 0px;
@@ -314,7 +322,7 @@ text-decoration: none;
 		margin-left: 0%;
 	width: 600px;
 	flex-wrap: wrap;
-	height: 2700px;
+	height: 4700px;
 	color: white;
 	background-color: red;
 	font-family: Comic Sans MS;
@@ -333,24 +341,24 @@ text-decoration: none;
 	right: -80px;
 	top: 0px;
 	width: 450px;
-	height: 2700px;
+	height: 4700px;
 	color: blue;
 	background-image: url(https://cdn.pixabay.com/photo/2014/05/26/14/45/rain-354617__340.jpg);
 		border: 3px blue dashed;
 	   }
 
 p{
-	font-size: 1em;
+	font-size: 1.5em;
 	width: 595px;
 }	   
 
 h1 {
-	font-size: 1.6em;
+	font-size: 2.1em;
 	width: 595px;
 }
 
 h2 {
-	font-size: 1.4em;
+	font-size: 1.9em;
 	width: 595px;
 }
 
