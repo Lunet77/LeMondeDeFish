@@ -298,7 +298,7 @@ margin-top: 68px;
 
 	body{    /*Caractéristiques principales de Wikiglouglou*/
 	background-image: url(https://cdn.pixabay.com/photo/2016/11/21/12/36/ocean-1845110_960_720.jpg);
-background-size: 10000px;
+background-size: 12000px;
 
 	background-repeat: no-repeat; 
 }
@@ -322,9 +322,9 @@ text-decoration: none;
 		margin-left: 0%;
 	width: 600px;
 	flex-wrap: wrap;
-	height: 6700px;
+	height: 6900px;
 	color: white;
-	background-color: red;
+background-color: #0A122A;
 	font-family: Comic Sans MS;
 	
 
@@ -341,7 +341,7 @@ text-decoration: none;
 	right: -80px;
 	top: 0px;
 	width: 450px;
-	height: 6700px;
+	height: 6900px;
 	color: blue;
 	background-image: url(https://cdn.pixabay.com/photo/2014/05/26/14/45/rain-354617__340.jpg);
 		border: 3px blue dashed;
@@ -368,12 +368,12 @@ h2 {
 	height: 75px;
 	position: absolute;
 	top: 0%;
-	right: 12%;
+	right: 20%;
 }  
 .BonjourS{ /*"Salutation visiteur!"*/
 	position: absolute;
-	top: 0.5%;
-	right: -3%;
+	top: 0%;
+	right: -6%;
 	color: green;
 	background-color: white;
 	width: auto;
@@ -383,8 +383,8 @@ h2 {
 	background-image: url(https://cdn.pixabay.com/photo/2016/02/14/09/45/frozen-1199182_960_720.jpg);
 width: 200px;
 position: absolute;
-top: 1%;
-left: 60%;
+top: 0%;
+left: 47%;
 font-family: Comic Sans MS;
 width: auto;
    }
@@ -395,14 +395,14 @@ width: auto;
 	width: 260px;
 	height: 130px;
 		margin-top: 110px;
-	margin-right: 250px;
+	margin-right: 160px;
 	
 }
 .nettoyeur{
 	width: 260px;
 	height: 130px;
 margin-top: 165px;
-	margin-right: 250px;
+	margin-right: 160px;
 
 	
 }
@@ -411,13 +411,13 @@ margin-top: 165px;
 	width: 260px;
 	height: 130px;
 	margin-top: 85px;
-	margin-right: 250px;
+	margin-right: 160px;
 }
 .pile{
 	width: 260px;
 	height: 160px;
 		margin-top: 60px;
-	margin-right: 250px;
+	margin-right: 160px;
 	
 }
 
@@ -425,15 +425,15 @@ margin-top: 165px;
 	width: 260px;
 	height: 130px;
 margin-top: 68px;
-	margin-right: 250px;
-	
+	margin-right: 160px;
+
 	
 }
 .terreeau{
 	width: 260px;
 	height: 130px;
 	margin-top: 190px;
-	margin-right: 250px;
+	margin-right: 160px;
 
 	  }
 .textimage{
@@ -441,15 +441,18 @@ margin-top: 68px;
 	font-weight: bold;
 	background-color: white;
 	width: 260px;
-	margin-right: 250px;
+	margin-right: 160px;
 
 
 
 }
+
+
+.wikicontact{
+	color: white;
+	background-color: blue;
+	width: 650px;
+	height: 300px;
+	margin-left: 0%;
+
 }
-
-
-
-
-
-	
