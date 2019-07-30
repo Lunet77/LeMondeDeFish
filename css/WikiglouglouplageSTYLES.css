@@ -373,7 +373,7 @@ h2 {
 .BonjourS{ /*"Salutation visiteur!"*/
 	position: absolute;
 	top: 0%;
-	right: -6%;
+	right: -12%;
 	color: green;
 	background-color: white;
 	width: auto;
@@ -440,7 +440,7 @@ margin-top: 68px;
 	color: #0A122A;
 	font-weight: bold;
 	background-color: white;
-	width: 260px;
+	width: 450px;
 	margin-right: 160px;
 
 
@@ -451,7 +451,7 @@ margin-top: 68px;
 .wikicontact{
 	color: white;
 	background-color: blue;
-	width: 650px;
+	width: 630px;
 	height: 300px;
 	margin-left: 0%;
 
