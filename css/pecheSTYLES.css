@@ -600,6 +600,7 @@ z-index: 999999999;
 		left: 245px;
 		top: 430px;
 		display: flex;
+		display: none;
 		
 	}
 	.poisonbleutristeréfléchit{
@@ -609,6 +610,7 @@ z-index: 999999999;
 		left: 197px;
 		top:370px;
 		display: flex;
+		display: none;
 		
 	}
 	.poissonjaunetriste{
@@ -618,6 +620,7 @@ z-index: 999999999;
 		left: 247px;
 		top: 210px;
 		display: flex;
+		display: none;
 	}
 	.poissonorangeviolettriste{
 		width: 20px;
@@ -626,6 +629,7 @@ z-index: 999999999;
 		left: 220px;
 	top: 210px;
 		display: flex;
+		display: none;
 	}
 
 	.Poissonrougeenormelarmes{
@@ -635,6 +639,7 @@ z-index: 999999999;
 		left: 178px;
 		top: 440px;
 		display: flex;
+		display: none;
 	}
 
 	.Dessinpoissonbleutriste{
@@ -644,6 +649,7 @@ z-index: 999999999;
 		left: 245px;
 		top: 368px;
 			display: flex;
+			display: none;
 	}
 .PoissonSerpent{
 	width: 20px;
@@ -652,6 +658,7 @@ z-index: 999999999;
 left: 177px;
 		top:210px;
 		display: flex;
+		display: none;
 }
 
 .PoissonClown{
@@ -661,6 +668,7 @@ left: 177px;
 	left: 207px;
 		top:540px;
 	display: flex;
+	display: none;
 }
 
 .Poissonjaunerealiste{
@@ -670,6 +678,7 @@ left: 177px;
 		left: 197px;
 		top:276px;
 		display: flex;
+		display: none;
 		
 
 }
@@ -751,6 +760,7 @@ z-index: 99999;
 		left: 245px;
 		top: 430px;
 		display: flex;
+		display: none;
 		
 	}
 	.poisonbleutristeréfléchit{
@@ -760,6 +770,7 @@ z-index: 99999;
 		left: 197px;
 		top:370px;
 		display: flex;
+		display: none;
 		
 	}
 	.poissonjaunetriste{
@@ -769,6 +780,7 @@ z-index: 99999;
 		left: 247px;
 		top: 210px;
 		display: flex;
+		display: none;
 	}
 	.poissonorangeviolettriste{
 		width: 20px;
@@ -777,6 +789,7 @@ z-index: 99999;
 		left: 220px;
 	top: 210px;
 		display: flex;
+		display: none;
 	}
 
 	.Poissonrougeenormelarmes{
@@ -786,6 +799,7 @@ z-index: 99999;
 		left: 178px;
 		top: 440px;
 		display: flex;
+		display: none;
 	}
 
 	.Dessinpoissonbleutriste{
@@ -795,6 +809,7 @@ z-index: 99999;
 		left: 245px;
 		top: 368px;
 			display: flex;
+			display: none;
 	}
 .PoissonSerpent{
 	width: 20px;
@@ -803,6 +818,7 @@ z-index: 99999;
 left: 177px;
 		top:210px;
 		display: flex;
+		display: none;
 }
 
 .PoissonClown{
@@ -812,6 +828,7 @@ left: 177px;
 	left: 207px;
 		top:540px;
 	display: flex;
+	display: none;
 }
 
 .Poissonjaunerealiste{
@@ -821,6 +838,7 @@ left: 177px;
 		left: 197px;
 		top:276px;
 		display: flex;
+		display: none;
 		
 
 }
@@ -829,8 +847,8 @@ left: 177px;
 	width: 290px;
 	height: 145px;
 	position: absolute;
-	left: 140px;
-	top: 50px;
+	left: 60px;
+	top: 0px;
 	z-index: -1;
 	}
 
@@ -858,7 +876,7 @@ z-index: 99999;
 	left: 0px;
 	position: absolute;
 	left: 0px;
-	top: 400px;
+	top: 410px;
 	
 	  }
 	  .fishquiparle{
@@ -868,7 +886,7 @@ z-index: 99999;
 	font-size: 0.7em;
 	background-color: yellow;
 	position: absolute;
-	top: 150px;
+	top: 160px;
 	left: 0px;
 	width: 120px;
 	}
@@ -901,6 +919,7 @@ z-index: 99999;
 		left: 245px;
 		top: 430px;
 		display: flex;
+		display: none;
 		
 	}
 	.poisonbleutristeréfléchit{
@@ -910,6 +929,7 @@ z-index: 99999;
 		left: 197px;
 		top:370px;
 		display: flex;
+		display: none;
 		
 	}
 	.poissonjaunetriste{
@@ -919,6 +939,7 @@ z-index: 99999;
 		left: 247px;
 		top: 210px;
 		display: flex;
+		display: none;
 	}
 	.poissonorangeviolettriste{
 		width: 20px;
@@ -927,6 +948,7 @@ z-index: 99999;
 		left: 220px;
 	top: 210px;
 		display: flex;
+		display: none;
 	}
 
 	.Poissonrougeenormelarmes{
@@ -936,6 +958,7 @@ z-index: 99999;
 		left: 178px;
 		top: 440px;
 		display: flex;
+		display: none;
 	}
 
 	.Dessinpoissonbleutriste{
@@ -945,6 +968,7 @@ z-index: 99999;
 		left: 245px;
 		top: 368px;
 			display: flex;
+			display: none;
 	}
 .PoissonSerpent{
 	width: 20px;
@@ -953,6 +977,7 @@ z-index: 99999;
 left: 177px;
 		top:210px;
 		display: flex;
+		display: none;
 }
 
 .PoissonClown{
@@ -962,6 +987,7 @@ left: 177px;
 	left: 207px;
 		top:540px;
 	display: flex;
+	display: none;
 }
 
 .Poissonjaunerealiste{
@@ -971,6 +997,7 @@ left: 177px;
 		left: 197px;
 		top:276px;
 		display: flex;
+		display: none;
 		
 
 }
@@ -979,8 +1006,8 @@ left: 177px;
 	width: 290px;
 	height: 145px;
 	position: absolute;
-	left: 140px;
-	top: 50px;
+	left: 65px;
+	top: 20px;
 	z-index: -1;
 	}
 
@@ -1051,6 +1078,7 @@ z-index: 99999;
 		left: 245px;
 		top: 430px;
 		display: flex;
+		display: none;
 		
 	}
 	.poisonbleutristeréfléchit{
@@ -1059,8 +1087,8 @@ z-index: 99999;
 		position: absolute;
 		left: 197px;
 		top:370px;
-		display: flex;
-		
+		display: flex;	
+		display: none;
 	}
 	.poissonjaunetriste{
 		width: 20px;
@@ -1069,6 +1097,7 @@ z-index: 99999;
 		left: 247px;
 		top: 210px;
 		display: flex;
+		display: none;
 	}
 	.poissonorangeviolettriste{
 		width: 20px;
@@ -1077,6 +1106,7 @@ z-index: 99999;
 		left: 220px;
 	top: 210px;
 		display: flex;
+		display: none;
 	}
 
 	.Poissonrougeenormelarmes{
@@ -1086,6 +1116,7 @@ z-index: 99999;
 		left: 178px;
 		top: 440px;
 		display: flex;
+		display: none;
 	}
 
 	.Dessinpoissonbleutriste{
@@ -1095,6 +1126,7 @@ z-index: 99999;
 		left: 245px;
 		top: 368px;
 			display: flex;
+			display: none;
 	}
 .PoissonSerpent{
 	width: 20px;
@@ -1103,6 +1135,7 @@ z-index: 99999;
 left: 177px;
 		top:210px;
 		display: flex;
+		display: none;
 }
 
 .PoissonClown{
@@ -1112,6 +1145,7 @@ left: 177px;
 	left: 207px;
 		top:540px;
 	display: flex;
+	display: none;
 }
 
 .Poissonjaunerealiste{
@@ -1121,6 +1155,7 @@ left: 177px;
 		left: 197px;
 		top:276px;
 		display: flex;
+		display: none;
 		
 
 }
@@ -1129,8 +1164,8 @@ left: 177px;
 	width: 290px;
 	height: 145px;
 	position: absolute;
-	left: 140px;
-	top: 50px;
+	left: 65px;
+	top: 0px;
 	z-index: -1;
 	}
 
@@ -1168,7 +1203,7 @@ z-index: 99999;
 	font-size: 0.7em;
 	background-color: yellow;
 	position: absolute;
-	top: 150px;
+	top: 152px;
 	left: 0px;
 	width: 120px;
 	}
@@ -1201,6 +1236,7 @@ z-index: 99999;
 		left: 245px;
 		top: 430px;
 		display: flex;
+		display: none;
 		
 	}
 	.poisonbleutristeréfléchit{
@@ -1210,6 +1246,7 @@ z-index: 99999;
 		left: 197px;
 		top:370px;
 		display: flex;
+		display: none;
 		
 	}
 	.poissonjaunetriste{
@@ -1219,6 +1256,7 @@ z-index: 99999;
 		left: 247px;
 		top: 210px;
 		display: flex;
+		display: none;
 	}
 	.poissonorangeviolettriste{
 		width: 20px;
@@ -1227,6 +1265,7 @@ z-index: 99999;
 		left: 220px;
 	top: 210px;
 		display: flex;
+		display: none;
 	}
 
 	.Poissonrougeenormelarmes{
@@ -1236,6 +1275,7 @@ z-index: 99999;
 		left: 178px;
 		top: 440px;
 		display: flex;
+		display: none;
 	}
 
 	.Dessinpoissonbleutriste{
@@ -1245,6 +1285,7 @@ z-index: 99999;
 		left: 245px;
 		top: 368px;
 			display: flex;
+			display: none;
 	}
 .PoissonSerpent{
 	width: 20px;
@@ -1253,6 +1294,7 @@ z-index: 99999;
 left: 177px;
 		top:210px;
 		display: flex;
+		display: none;
 }
 
 .PoissonClown{
@@ -1262,6 +1304,7 @@ left: 177px;
 	left: 207px;
 		top:540px;
 	display: flex;
+	display: none;
 }
 
 .Poissonjaunerealiste{
@@ -1271,6 +1314,7 @@ left: 177px;
 		left: 197px;
 		top:276px;
 		display: flex;
+		display: none;
 		
 
 }
@@ -1279,8 +1323,8 @@ left: 177px;
 	width: 290px;
 	height: 145px;
 	position: absolute;
-	left: 140px;
-	top: 50px;
+	left: 60px;
+	top: 15px;
 	z-index: -1;
 	}
 
@@ -1351,6 +1395,7 @@ z-index: 99999;
 		left: 245px;
 		top: 430px;
 		display: flex;
+		display: none;
 		
 	}
 	.poisonbleutristeréfléchit{
@@ -1360,6 +1405,7 @@ z-index: 99999;
 		left: 197px;
 		top:370px;
 		display: flex;
+		display: none;
 		
 	}
 	.poissonjaunetriste{
@@ -1369,6 +1415,7 @@ z-index: 99999;
 		left: 247px;
 		top: 210px;
 		display: flex;
+		display: none;
 	}
 	.poissonorangeviolettriste{
 		width: 20px;
@@ -1377,6 +1424,7 @@ z-index: 99999;
 		left: 220px;
 	top: 210px;
 		display: flex;
+		display: none;
 	}
 
 	.Poissonrougeenormelarmes{
@@ -1386,6 +1434,7 @@ z-index: 99999;
 		left: 178px;
 		top: 440px;
 		display: flex;
+		display: none;
 	}
 
 	.Dessinpoissonbleutriste{
@@ -1395,6 +1444,7 @@ z-index: 99999;
 		left: 245px;
 		top: 368px;
 			display: flex;
+			display: none;
 	}
 .PoissonSerpent{
 	width: 20px;
@@ -1403,6 +1453,7 @@ z-index: 99999;
 left: 177px;
 		top:210px;
 		display: flex;
+		display: none;
 }
 
 .PoissonClown{
@@ -1412,6 +1463,7 @@ left: 177px;
 	left: 207px;
 		top:540px;
 	display: flex;
+	display: none;
 }
 
 .Poissonjaunerealiste{
@@ -1421,6 +1473,7 @@ left: 177px;
 		left: 197px;
 		top:276px;
 		display: flex;
+		display: none;
 		
 
 }
@@ -1429,8 +1482,8 @@ left: 177px;
 	width: 290px;
 	height: 145px;
 	position: absolute;
-	left: 140px;
-	top: 50px;
+	left: 60px;
+	top: 0px;
 	z-index: -1;
 	}
 
@@ -1501,6 +1554,7 @@ z-index: 99999;
 		left: 245px;
 		top: 430px;
 		display: flex;
+		display: none;
 		
 	}
 	.poisonbleutristeréfléchit{
@@ -1510,6 +1564,7 @@ z-index: 99999;
 		left: 197px;
 		top:370px;
 		display: flex;
+		display: none;
 		
 	}
 	.poissonjaunetriste{
@@ -1519,6 +1574,7 @@ z-index: 99999;
 		left: 247px;
 		top: 210px;
 		display: flex;
+		display: none;
 	}
 	.poissonorangeviolettriste{
 		width: 20px;
@@ -1527,6 +1583,7 @@ z-index: 99999;
 		left: 220px;
 	top: 210px;
 		display: flex;
+		display: none;
 	}
 
 	.Poissonrougeenormelarmes{
@@ -1536,6 +1593,7 @@ z-index: 99999;
 		left: 178px;
 		top: 440px;
 		display: flex;
+		display: none;
 	}
 
 	.Dessinpoissonbleutriste{
@@ -1545,6 +1603,7 @@ z-index: 99999;
 		left: 245px;
 		top: 368px;
 			display: flex;
+			display: none;
 	}
 .PoissonSerpent{
 	width: 20px;
@@ -1553,6 +1612,7 @@ z-index: 99999;
 left: 177px;
 		top:210px;
 		display: flex;
+		display: none;
 }
 
 .PoissonClown{
@@ -1562,6 +1622,7 @@ left: 177px;
 	left: 207px;
 		top:540px;
 	display: flex;
+	display: none;
 }
 
 .Poissonjaunerealiste{
@@ -1571,6 +1632,7 @@ left: 177px;
 		left: 197px;
 		top:276px;
 		display: flex;
+		display: none;
 		
 
 }
@@ -1579,8 +1641,8 @@ left: 177px;
 	width: 290px;
 	height: 145px;
 	position: absolute;
-	left: 140px;
-	top: 50px;
+	left: 50px;
+	top: 0px;
 	z-index: -1;
 	}
 
@@ -1615,7 +1677,7 @@ z-index: 99999;
 	left: 0px;
 	position: absolute;
 	left: 0px;
-	top: 400px;
+	top: 440px;
 	
 	  }
 	  .fishquiparle{
@@ -1623,11 +1685,11 @@ z-index: 99999;
     color: #B40404;
 	font-weight: bold;
 	font-size: 0.7em;
-	background-color: blue;
+	background-color: red;
 	position: absolute;
 	top: 150px;
 	left: 0px;
-	width: 120px;
+	width: 100px;
 	}
 
 	
@@ -1658,6 +1720,7 @@ z-index: 99999;
 		left: 245px;
 		top: 430px;
 		display: flex;
+		display: none;
 		
 	}
 	.poisonbleutristeréfléchit{
@@ -1667,6 +1730,7 @@ z-index: 99999;
 		left: 197px;
 		top:370px;
 		display: flex;
+		display: none;
 		
 	}
 	.poissonjaunetriste{
@@ -1676,6 +1740,7 @@ z-index: 99999;
 		left: 247px;
 		top: 210px;
 		display: flex;
+		display: none;
 	}
 	.poissonorangeviolettriste{
 		width: 20px;
@@ -1684,6 +1749,7 @@ z-index: 99999;
 		left: 220px;
 	top: 210px;
 		display: flex;
+		display: none;
 	}
 
 	.Poissonrougeenormelarmes{
@@ -1693,6 +1759,7 @@ z-index: 99999;
 		left: 178px;
 		top: 440px;
 		display: flex;
+		display: none;
 	}
 
 	.Dessinpoissonbleutriste{
@@ -1702,6 +1769,7 @@ z-index: 99999;
 		left: 245px;
 		top: 368px;
 			display: flex;
+			display: none;
 	}
 .PoissonSerpent{
 	width: 20px;
@@ -1710,6 +1778,7 @@ z-index: 99999;
 left: 177px;
 		top:210px;
 		display: flex;
+		display: none;
 }
 
 .PoissonClown{
@@ -1719,6 +1788,7 @@ left: 177px;
 	left: 207px;
 		top:540px;
 	display: flex;
+	display: none;
 }
 
 .Poissonjaunerealiste{
@@ -1728,16 +1798,17 @@ left: 177px;
 		left: 197px;
 		top:276px;
 		display: flex;
+		display: none;
 		
 
 }
 
 .bateau{
-	width: 290px;
-	height: 145px;
+	width: 200px;
+	height: 115px;
 	position: absolute;
-	left: 140px;
-	top: 50px;
+	left: 60px;
+	top: 0px;
 	z-index: -1;
 	}
 
