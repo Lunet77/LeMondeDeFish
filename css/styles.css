@@ -161,7 +161,7 @@ footer{
 		}
 	}
 /*En dessous, on codera pour les écrans inférieurs à un pc , ici: Ipad normal paysage; (PARTIE QUI BUG !!!!!!) */
-@media all and (max-width: 1367px) 
+@media all and (max-width: 1367px) and (orientation: landscape)
 {
 	p{
 		font-size: 1.9em; /* Taille spécial pour cette partie !!*/
@@ -178,7 +178,7 @@ footer{
 
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
-@media all and (max-width: 979px) 
+@media all and (max-width: 979px) and (orientation: landscape)
 {
 	p{
 		font-size: 1.5em; /* Taille paragraphe pour inf à 979px*/
@@ -256,7 +256,7 @@ footer{
 	  }
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (petite tablette) */
-@media all and (max-width: 767px) 
+@media all and (max-width: 767px) and (orientation: landscape)
 {
 	p{
 		font-size: 1.2em; /* Taille paragraphe pour inf à 767px*/
@@ -382,7 +382,7 @@ footer{
   }
 
 	/*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
-@media all and (max-width: 480px) 
+@media all and (max-width: 480px) and (orientation: portrait)
 {
 	p{
 		font-size: 1em; /* Taille paragraphe pour inf à 480px*/
@@ -538,3 +538,36 @@ footer{
 	bottom: 0px;
 	left: 0px;   }
 	  }
+
+
+	  /*INVERSE/*
+
+	  /*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
+@media all and (max-width: 823px) and (orientation: landscape)
+{
+
+p{
+		font-size: 0.8em; /* Taille paragraphe pour inf à 480px*/
+		display: flex;
+		flex-wrap: wrap;
+		background-color: pink;
+		  }
+		  
+.presentationfishquiparle /*dialogue de fish*/
+{
+	font-weight: bold;
+	width: 300px;
+margin-top: 8%;
+font-size: 	
+}
+footer{
+	font-size: 0.5em;
+	color: blue;
+	background-color: black;
+	width: 200px;
+	height: 30px;
+	position: absolute; 
+	bottom: 0px;
+	left: 0px;   }
+	  }
+}
