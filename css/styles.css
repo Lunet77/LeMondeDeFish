@@ -410,7 +410,7 @@ width: 300px;
 }
  nav{ /*TAILLE DU MENU AVEC SA BORDURE*/
 	background-image: url(https://cdn.pixabay.com/photo/2018/01/16/10/29/waters-3085701__340.jpg);
-width:  250px;
+width:  230px;
 height: 30px;
 border: 3px blue dashed;
 margin-top: 50px;
@@ -539,7 +539,7 @@ footer{
 	left: 0px;   }
 	  }
 
-
+	  
 	  /*INVERSE/*
 
 	  /*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
@@ -560,14 +560,56 @@ p{
 margin-top: 3%;
 font-size: 	
 }
+
 footer{
 	font-size: 0.5em;
 	color: blue;
 	background-color: black;
-	width: 200px;
+	width: 250px;
 	height: 30px;
 	position: absolute; 
 	bottom: 0px;
 	left: 0px;   }
-	  }
+
+
+nav{ /*TAILLE DU MENU AVEC SA BORDURE*/
+	background-image: url(https://cdn.pixabay.com/photo/2018/01/16/10/29/waters-3085701__340.jpg);
+width:  230px;
+height: 30px;
+border: 3px blue dashed;
+margin-top: 50px;
 }
+
+.Politique{ 
+	background-color: white;
+	margin-left: 0em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 0.7em;
+
+	
+}
+
+
+.Contact{
+	background-color: white;
+	margin-left: 1em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 0.7em;
+
+}
+
+.Solidarité{
+	background-color: white;
+	margin-left: 1.2em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 0.7em;
+
+}
+
+  }

@@ -29,6 +29,8 @@ list-style-type: none;
 text-decoration: none;
 }
 
+/*MEDIA Q*/
+
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (PARTIE QUI BUG !!!!!!) */
 @media all and (max-width: 1300px) and (orientation: landscape)
@@ -57,9 +59,10 @@ div{
 list-style-type: none;
 text-decoration: none;
 }
-}
 
 }
+
+
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
 @media all and (max-width: 979px) and (orientation: landscape)
 {
@@ -107,7 +110,7 @@ text-decoration: none;
 	  }
 }
 
-	/*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
+/*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
 @media all and (max-width: 480px) and (orientation: portrait)
 {
 	div{
@@ -129,7 +132,7 @@ text-decoration: none;
 
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (PARTIE QUI BUG !!!!!!) */
-@media all and (max-width: 1300px) and (orientation: portrait)
+@media all and (max-width: 1300px) and (min-width: 979.1px) and (orientation: portrait)
 {
 		div{
 	display: flex;
@@ -148,10 +151,8 @@ text-decoration: none;
 
 
 
-
-
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
-@media all and (max-width: 979px) and  (orientation: portrait)
+@media all and (max-width: 979px) and (min-width: 768.1px) and (orientation: portrait)
 {
 		div{
 	display: flex;
@@ -168,8 +169,10 @@ text-decoration: none;
 	  }
 }
 
+
+
 /*En dessous, on codera pour les écrans inférieurs à un pc (petite tablette) */
-@media all and (max-width: 767px) and (orientation: portrait)
+@media all and (max-width: 768px) and (min-width: 767px) and (orientation: portrait)
 {
 	div{
 	display: flex;
@@ -180,7 +183,7 @@ text-decoration: none;
 	width: 400px;
 	height: 1200px;
 	color: white;
-	background-color: red;
+	background-color: pink;
 	font-family: Comic Sans MS;
 	font-size: 0.75em;
 	  }
