@@ -162,7 +162,7 @@ body{ /*caractéristiques de  la page du lien qui emmène vers le monde de fish*
 /*MEDIA QUERIES!!!! */
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (Ipad PRO) */
-@media all and (max-width: 1366px) and (min-width: 1365px) and (orientation: landscape)
+@media all and (max-width: 1366px) and (min-width: 979.1px) and (orientation: portrait)
 {
   body{ /*caractéristiques de  la page du lien qui emmène vers le monde de fish*/
 			background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
@@ -173,7 +173,7 @@ body{ /*caractéristiques de  la page du lien qui emmène vers le monde de fish*
 }
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
-@media all and (max-width: 1024px) and (orientation: landscape)
+@media all and (max-width: 979px) and (min-width: 767.1px) and (orientation: portrait)
 {
 	.fishphoto{ /*la jolie photo de notre beau poisson*/
 	width: 50px;
@@ -525,7 +525,7 @@ text-decoration: none;
 /*INVERSE !!!!!!!!!!!!!*/
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (Ipad PRO) */
-@media all and (max-width: 1024px) and (min-width: 1023px) and (orientation: portrait)
+@media all and (max-width: 1024px) and (min-width: 769.1px) and (orientation: portrait)
 {
 	.fishphoto{ /*la jolie photo de notre beau poisson*/
 	width: 50px;
@@ -588,7 +588,7 @@ body{ /*caractéristiques de  la page du lien qui emmène vers le monde de fish*
 }
 
 /*En dessous, on codera pour les écrans inférieurs à un pc (IPAD) */
-@media all and (max-width: 769px) and (min-width: 767px) and (max-height: 1025px) and (min-height: 1023px) and (orientation: portrait)
+@media all and (max-width: 769px) and (min-width: 0.1px) and (max-height: 1025px) and (min-height: 0.1px) and (orientation: portrait)
 {
 	body{ /*caractéristiques de  la page du lien qui emmène vers le monde de fish*/
 			background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
